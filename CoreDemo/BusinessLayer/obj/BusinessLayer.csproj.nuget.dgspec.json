@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/enescigdem/Projects/CoreDemo/BusinessLayer/BusinessLayer.csproj": {}
+    "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/BusinessLayer/BusinessLayer.csproj": {}
   },
   "projects": {
-    "/Users/enescigdem/Projects/CoreDemo/BusinessLayer/BusinessLayer.csproj": {
+    "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/BusinessLayer/BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enescigdem/Projects/CoreDemo/BusinessLayer/BusinessLayer.csproj",
+        "projectUniqueName": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/BusinessLayer/BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "/Users/enescigdem/Projects/CoreDemo/BusinessLayer/BusinessLayer.csproj",
+        "projectPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/BusinessLayer/BusinessLayer.csproj",
         "packagesPath": "/Users/enescigdem/.nuget/packages/",
-        "outputPath": "/Users/enescigdem/Projects/CoreDemo/BusinessLayer/obj/",
+        "outputPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/BusinessLayer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/enescigdem/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/enescigdem/Projects/CoreDemo/DataAccessLayer/DataAccessLayer.csproj": {
-                "projectPath": "/Users/enescigdem/Projects/CoreDemo/DataAccessLayer/DataAccessLayer.csproj"
+              "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/DataAccessLayer/DataAccessLayer.csproj": {
+                "projectPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/DataAccessLayer/DataAccessLayer.csproj"
               },
-              "/Users/enescigdem/Projects/CoreDemo/EntityLayer/EntityLayer.csproj": {
-                "projectPath": "/Users/enescigdem/Projects/CoreDemo/EntityLayer/EntityLayer.csproj"
+              "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/EntityLayer.csproj": {
+                "projectPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/EntityLayer.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "/Users/enescigdem/Projects/CoreDemo/DataAccessLayer/DataAccessLayer.csproj": {
+    "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/DataAccessLayer/DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enescigdem/Projects/CoreDemo/DataAccessLayer/DataAccessLayer.csproj",
+        "projectUniqueName": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/DataAccessLayer/DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "/Users/enescigdem/Projects/CoreDemo/DataAccessLayer/DataAccessLayer.csproj",
+        "projectPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/DataAccessLayer/DataAccessLayer.csproj",
         "packagesPath": "/Users/enescigdem/.nuget/packages/",
-        "outputPath": "/Users/enescigdem/Projects/CoreDemo/DataAccessLayer/obj/",
+        "outputPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/DataAccessLayer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/enescigdem/.nuget/NuGet/NuGet.Config"
@@ -92,8 +92,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/enescigdem/Projects/CoreDemo/EntityLayer/EntityLayer.csproj": {
-                "projectPath": "/Users/enescigdem/Projects/CoreDemo/EntityLayer/EntityLayer.csproj"
+              "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/EntityLayer.csproj": {
+                "projectPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/EntityLayer.csproj"
               }
             }
           }
@@ -149,14 +149,14 @@
         }
       }
     },
-    "/Users/enescigdem/Projects/CoreDemo/EntityLayer/EntityLayer.csproj": {
+    "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enescigdem/Projects/CoreDemo/EntityLayer/EntityLayer.csproj",
+        "projectUniqueName": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "/Users/enescigdem/Projects/CoreDemo/EntityLayer/EntityLayer.csproj",
+        "projectPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/EntityLayer.csproj",
         "packagesPath": "/Users/enescigdem/.nuget/packages/",
-        "outputPath": "/Users/enescigdem/Projects/CoreDemo/EntityLayer/obj/",
+        "outputPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/enescigdem/.nuget/NuGet/NuGet.Config"

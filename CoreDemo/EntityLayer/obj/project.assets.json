@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/enescigdem/Projects/CoreDemo/EntityLayer/EntityLayer.csproj",
+      "projectUniqueName": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/EntityLayer.csproj",
       "projectName": "EntityLayer",
-      "projectPath": "/Users/enescigdem/Projects/CoreDemo/EntityLayer/EntityLayer.csproj",
+      "projectPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/EntityLayer.csproj",
       "packagesPath": "/Users/enescigdem/.nuget/packages/",
-      "outputPath": "/Users/enescigdem/Projects/CoreDemo/EntityLayer/obj/",
+      "outputPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/enescigdem/.nuget/NuGet/NuGet.Config"

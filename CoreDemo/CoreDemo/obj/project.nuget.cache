@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/sxJ/9p8HUorEnwhJHCuit+w4qA/LQsghq7S2VNfpiEMHJc0TmVaMT9sb9olCwYI+2QqjsolqzUMBtboYpRNOA==",
+  "dgSpecHash": "LYhigQJJlgHkpsJfiAjbCSZxxlI8prVYIoVHgCnp0d0hJE+7dG3HIHw8UqDmeDC4pdS7YZOA6eCMvKSYvhPXNQ==",
   "success": true,
-  "projectFilePath": "/Users/enescigdem/Projects/CoreDemo/CoreDemo/CoreDemo.csproj",
+  "projectFilePath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreDemo/CoreDemo.csproj",
   "expectedPackageFiles": [
     "/Users/enescigdem/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/enescigdem/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

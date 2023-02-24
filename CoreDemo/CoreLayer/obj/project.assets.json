@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/enescigdem/Projects/CoreDemo/CoreLayer/CoreLayer.csproj",
+      "projectUniqueName": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/CoreLayer.csproj",
       "projectName": "CoreLayer",
-      "projectPath": "/Users/enescigdem/Projects/CoreDemo/CoreLayer/CoreLayer.csproj",
+      "projectPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/CoreLayer.csproj",
       "packagesPath": "/Users/enescigdem/.nuget/packages/",
-      "outputPath": "/Users/enescigdem/Projects/CoreDemo/CoreLayer/obj/",
+      "outputPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/enescigdem/.nuget/NuGet/NuGet.Config"

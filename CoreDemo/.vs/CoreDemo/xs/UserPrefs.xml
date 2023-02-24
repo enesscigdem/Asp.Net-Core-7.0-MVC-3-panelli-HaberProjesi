@@ -1,53 +1,26 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Controllers/BlogController.cs">
     <Files>
-      <File FileName="EntityLayer/Concrete/Blog.cs" Line="10" Column="24" />
-      <File FileName="BusinessLayer/Abstract/IAboutService.cs" Line="1" Column="1" />
-      <File FileName="BusinessLayer/Abstract/IGenericService.cs" Line="12" Column="28" />
-      <File FileName="CoreDemo/Views/Blog/Index.cshtml" Line="43" Column="120" />
+      <File FileName="EntityLayer/Concrete/Blog.cs" />
+      <File FileName="BusinessLayer/Abstract/IAboutService.cs" />
+      <File FileName="BusinessLayer/Abstract/IGenericService.cs" />
+      <File FileName="CoreDemo/Views/Blog/Index.cshtml" />
       <File FileName="CoreDemo/Controllers/BlogController.cs" Line="33" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CoreDemo" expanded="True">
-            <Node name="BusinessLayer" expanded="True">
-              <Node name="Abstract" expanded="True" />
-              <Node name="Concrete" expanded="True" />
-            </Node>
-            <Node name="CoreDemo" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="BlogController.cs" selected="True" />
-              </Node>
-              <Node name="ViewComponents" expanded="True">
-                <Node name="Blog" expanded="True" />
-                <Node name="Writer" expanded="True" />
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Blog" expanded="True" />
-                <Node name="Dashboard" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="BlogListDashboard" expanded="True" />
-                    <Node name="CategoryList" expanded="True" />
-                    <Node name="CommentListByBlog" expanded="True" />
-                    <Node name="WriterAboutOnDashboard" expanded="True" />
-                    <Node name="WriterLastBlog" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="CoreDemo" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CoreLayer FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CoreLayer FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
 </Properties>
