@@ -10,3 +10,15 @@
 /Users/enescigdem/Projects/CoreDemo/EntityLayer/obj/Debug/net7.0/refint/EntityLayer.dll
 /Users/enescigdem/Projects/CoreDemo/EntityLayer/obj/Debug/net7.0/EntityLayer.pdb
 /Users/enescigdem/Projects/CoreDemo/EntityLayer/obj/Debug/net7.0/ref/EntityLayer.dll
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/bin/Debug/net7.0/EntityLayer.deps.json
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/bin/Debug/net7.0/EntityLayer.dll
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/bin/Debug/net7.0/EntityLayer.pdb
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/obj/Debug/net7.0/EntityLayer.csproj.AssemblyReference.cache
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/obj/Debug/net7.0/EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/obj/Debug/net7.0/EntityLayer.AssemblyInfoInputs.cache
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/obj/Debug/net7.0/EntityLayer.AssemblyInfo.cs
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/obj/Debug/net7.0/EntityLayer.csproj.CoreCompileInputs.cache
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/obj/Debug/net7.0/EntityLayer.dll
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/obj/Debug/net7.0/refint/EntityLayer.dll
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/obj/Debug/net7.0/EntityLayer.pdb
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/obj/Debug/net7.0/ref/EntityLayer.dll
