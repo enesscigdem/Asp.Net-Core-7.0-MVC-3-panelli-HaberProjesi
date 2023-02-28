@@ -80,5 +80,9 @@
     <Folder Include="Views\Shared\Components\BlogListDashboard\" />
     <Folder Include="Views\Shared\Components\CategoryListDashboard\" />
     <Folder Include="Views\Shared\Components\WriterAboutOnDashboard\" />
+    <Folder Include="wwwroot\WriterImageFiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\WriterImageFiles\" />
   </ItemGroup>
 </Project>

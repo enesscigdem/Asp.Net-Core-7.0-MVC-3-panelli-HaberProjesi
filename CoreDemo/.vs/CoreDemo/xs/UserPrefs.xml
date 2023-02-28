@@ -1,46 +1,47 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Controllers/BlogController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Views/Writer/WriterAdd.cshtml">
     <Files>
-      <File FileName="EntityLayer/Concrete/Blog.cs" />
-      <File FileName="BusinessLayer/Abstract/IAboutService.cs" Line="1" Column="1" />
-      <File FileName="BusinessLayer/Abstract/IGenericService.cs" Line="12" Column="28" />
-      <File FileName="CoreDemo/Views/Blog/Index.cshtml" />
-      <File FileName="CoreDemo/Controllers/BlogController.cs" Line="18" Column="6" />
-      <File FileName="EntityLayer/Concrete/About.cs" Line="1" Column="1" />
-      <File FileName="DataAccessLayer/EntityFramework/EfAboutRepository.cs" Line="1" Column="1" />
-      <File FileName="CoreDemo/Controllers/AboutController.cs" Line="1" Column="1" />
+      <File FileName="CoreDemo/Controllers/WriterController.cs" Line="107" Column="27" />
+      <File FileName="CoreDemo/Models/AddProfileImage.cs" Line="15" Column="1" />
+      <File FileName="CoreDemo/Views/Writer/WriterEditProfile.cshtml" Line="58" Column="11" />
+      <File FileName="CoreDemo/Views/Writer/WriterAdd.cshtml" Line="30" Column="25" />
+      <File FileName="DataAccessLayer/Repositories/GenericRepository.cs" Line="35" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CoreDemo" expanded="True">
-            <Node name="BusinessLayer" expanded="True">
-              <Node name="Abstract" expanded="True" />
-            </Node>
             <Node name="CoreDemo" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="BlogController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="About" expanded="True" />
                 <Node name="Blog" expanded="True" />
-                <Node name="Category" expanded="True" />
-                <Node name="Comment" expanded="True" />
-                <Node name="Contact" expanded="True" />
+                <Node name="Dashboard" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="Writer" expanded="True" />
               </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="WriterImageFiles" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="DataAccessLayer" expanded="True">
+              <Node name="EntityFramework" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+            </Node>
+            <Node name="EntityLayer" expanded="True">
+              <Node name="Concrete" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CoreLayer FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.CoreLayer FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
