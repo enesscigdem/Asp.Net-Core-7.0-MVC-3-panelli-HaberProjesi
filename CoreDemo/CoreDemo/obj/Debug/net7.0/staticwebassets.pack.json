@@ -329,6 +329,10 @@
       "PackagePath": "staticwebassets/CoreBlogTema/webfonts/fa-solid-900.woff2"
     },
     {
+      "Id": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreDemo/wwwroot/WriterImageFiles/6bece6ea-a551-4df8-952c-c378e8db79ea.jpeg",
+      "PackagePath": "staticwebassets/WriterImageFiles/6bece6ea-a551-4df8-952c-c378e8db79ea.jpeg"
+    },
+    {
       "Id": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreDemo/wwwroot/WriterImageFiles/7352bf3e-ae82-4ee3-8647-7b9d972327b0.jpeg",
       "PackagePath": "staticwebassets/WriterImageFiles/7352bf3e-ae82-4ee3-8647-7b9d972327b0.jpeg"
     },

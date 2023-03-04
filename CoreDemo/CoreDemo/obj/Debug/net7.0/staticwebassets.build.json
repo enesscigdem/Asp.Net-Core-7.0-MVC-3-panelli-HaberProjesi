@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+On3Ul+otWEhfh61gHo6QRrebBCbE6z1eLPl6DYyN+I=",
+  "Hash": "mYHheRfr6+EChWmVjkFPz5a1exi5tsRThSrjS+JUpOU=",
   "Source": "CoreDemo",
   "BasePath": "_content/CoreDemo",
   "Mode": "Default",
@@ -5098,6 +5098,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/writer/screenshot.jpg"
+    },
+    {
+      "Identity": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreDemo/wwwroot/WriterImageFiles/6bece6ea-a551-4df8-952c-c378e8db79ea.jpeg",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreDemo/wwwroot/",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "WriterImageFiles/6bece6ea-a551-4df8-952c-c378e8db79ea.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/WriterImageFiles/6bece6ea-a551-4df8-952c-c378e8db79ea.jpeg"
     },
     {
       "Identity": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreDemo/wwwroot/WriterImageFiles/7352bf3e-ae82-4ee3-8647-7b9d972327b0.jpeg",
