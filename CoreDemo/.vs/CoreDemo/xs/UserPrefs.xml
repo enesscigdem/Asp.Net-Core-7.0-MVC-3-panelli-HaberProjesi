@@ -5,9 +5,11 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/ViewComponents/Notification/NotificationList.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Views/Writer/WriterNavbarPartial.cshtml">
     <Files>
-      <File FileName="CoreDemo/ViewComponents/Notification/NotificationList.cs" Line="19" Column="1" />
+      <File FileName="CoreDemo/ViewComponents/Writer/WriterNotification.cs" Line="15" Column="10" />
+      <File FileName="CoreDemo/Views/Shared/Components/WriterNotification/Default.cshtml" Line="21" Column="5" />
+      <File FileName="CoreDemo/Views/Writer/WriterNavbarPartial.cshtml" Line="37" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,12 +17,19 @@
           <Node name="CoreDemo" expanded="True">
             <Node name="CoreDemo" expanded="True">
               <Node name="ViewComponents" expanded="True">
-                <Node name="Notification" expanded="True" />
+                <Node name="Writer" expanded="True" />
               </Node>
-              <Node name="Views" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="WriterNotification" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="Writer" expanded="True" />
+              </Node>
             </Node>
             <Node name="EntityLayer" expanded="True">
-              <Node name="Concrete" expanded="True" selected="True" />
+              <Node name="Concrete" expanded="True" />
             </Node>
           </Node>
         </State>
