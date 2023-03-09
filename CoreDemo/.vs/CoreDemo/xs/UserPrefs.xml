@@ -1,41 +1,34 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
-  <MonoDevelop.Ide.ItemProperties.CoreLayer FirstBuild="True" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Views/Writer/WriterNavbarPartial.cshtml">
-    <Files>
-      <File FileName="CoreDemo/ViewComponents/Writer/WriterNotification.cs" Line="15" Column="10" />
-      <File FileName="CoreDemo/Views/Shared/Components/WriterNotification/Default.cshtml" Line="21" Column="5" />
-      <File FileName="CoreDemo/Views/Writer/WriterNavbarPartial.cshtml" Line="37" Column="3" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CoreDemo" expanded="True">
+            <Node name="BusinessLayer" expanded="True">
+              <Node name="Concrete" expanded="True" />
+            </Node>
             <Node name="CoreDemo" expanded="True">
-              <Node name="ViewComponents" expanded="True">
-                <Node name="Writer" expanded="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Blog" expanded="True" />
+                <Node name="Notification" expanded="True" />
                 <Node name="Shared" expanded="True">
                   <Node name="Components" expanded="True">
                     <Node name="WriterNotification" expanded="True" />
                   </Node>
                 </Node>
-                <Node name="Writer" expanded="True" />
               </Node>
-            </Node>
-            <Node name="EntityLayer" expanded="True">
-              <Node name="Concrete" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
