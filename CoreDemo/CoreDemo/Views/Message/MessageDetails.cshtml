@@ -1,0 +1,14 @@
+@model EntityLayer.Concrete.Message2
+@{
+    ViewData["Title"] = "MessageDetails";
+    Layout = "WriterLayout";
+}
+<h1>Mesaj Detayları Sayfası</h1>
+@Html.HiddenFor(x => x.MessageID, new { @class = "form-control" })
+<br />
+@Html.Label("Mesaj Başlığı")
+@Html.TextBoxFor(x => x.Subject, new { @class = "form-control" })
+<br />
+@Html.Label("Mesaj İçeriği")
+@Html.TextAreaFor(x => x.MessageDetails, 10, 3, new { @class = "form-control"})
+<br />
