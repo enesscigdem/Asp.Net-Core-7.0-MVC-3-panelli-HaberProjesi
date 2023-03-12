@@ -1,11 +1,9 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Models/AddProfileImage.cs">
     <Files>
-      <File FileName="CoreDemo/Areas/Admin/Controllers/CategoryController.cs" Line="20" Column="31" />
-      <File FileName="CoreDemo/Areas/Admin/Views/Category/Index.cshtml" Line="17" Column="13" />
-      <File FileName="CoreDemo/ViewComponents/Writer/WriterAboutOnDashboard.cs" Line="14" Column="28" />
+      <File FileName="CoreDemo/Areas/Admin/Controllers/CategoryController.cs" />
+      <File FileName="CoreDemo/Areas/Admin/Views/Category/Index.cshtml" />
+      <File FileName="CoreDemo/ViewComponents/Writer/WriterAboutOnDashboard.cs" />
       <File FileName="CoreDemo/Models/AddProfileImage.cs" Line="16" Column="1" />
     </Files>
     <Pads>
@@ -21,9 +19,7 @@
                   </Node>
                 </Node>
               </Node>
-              <Node name="Models" expanded="True">
-                <Node name="AddProfileImage.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="ViewComponents" expanded="True">
                 <Node name="Writer" expanded="True" />
               </Node>
@@ -33,9 +29,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
 </Properties>
