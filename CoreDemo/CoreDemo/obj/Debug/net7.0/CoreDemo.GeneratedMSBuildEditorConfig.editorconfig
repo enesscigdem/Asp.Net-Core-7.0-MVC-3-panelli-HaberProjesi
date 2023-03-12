@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = /Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreDemo
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreDemo/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2F0ZWdvcnkvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreDemo/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
