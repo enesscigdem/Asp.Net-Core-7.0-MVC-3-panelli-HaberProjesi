@@ -1,0 +1,11 @@
+@page
+@model CoreDemo.Views.Shared.AdminLayoutModel
+@{
+    ViewData["Title"] = "AdminLayout";
+}
+
+<h1>AdminLayout</h1>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
