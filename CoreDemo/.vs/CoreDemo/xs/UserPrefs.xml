@@ -1,20 +1,36 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
   <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Views/Shared/AdminLayout.cshtml">
     <Files>
       <File FileName="CoreDemo/Views/Shared/AdminLayout.cshtml" Line="761" Column="21" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Program.cs">
+    <Files>
+      <File FileName="CoreDemo/Areas/Admin/Controllers/CategoryController.cs" Line="1" Column="1" />
+      <File FileName="CoreDemo/Areas/Admin/Views/Category/Index.cshtml" Line="21" Column="31" />
+      <File FileName="CoreDemo/ViewComponents/Writer/WriterAboutOnDashboard.cs" />
+      <File FileName="CoreDemo/Models/AddProfileImage.cs" />
+      <File FileName="DataAccessLayer/Repositories/GenericRepository.cs" Line="28" Column="1" />
+      <File FileName="CoreDemo/Views/Login/Index.cshtml" Line="14" Column="160" />
+      <File FileName="CoreDemo/Program.cs" Line="51" Column="1" />
+>>>>>>> 397b50de098d932a79b137fe0c3d0a756cddf727
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CoreDemo" expanded="True">
             <Node name="CoreDemo" expanded="True">
+<<<<<<< HEAD
               <Node name="Views" expanded="True">
                 <Node name="Shared" expanded="True">
                   <Node name="AdminLayout.cshtml" selected="True" />
                 </Node>
               </Node>
+=======
+              <Node name="wwwroot" expanded="True" selected="True" />
+>>>>>>> 397b50de098d932a79b137fe0c3d0a756cddf727
             </Node>
           </Node>
         </State>
