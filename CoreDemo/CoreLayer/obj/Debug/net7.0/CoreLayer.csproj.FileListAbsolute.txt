@@ -1,0 +1,12 @@
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/bin/Debug/net7.0/CoreLayer.deps.json
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/bin/Debug/net7.0/CoreLayer.dll
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/bin/Debug/net7.0/CoreLayer.pdb
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/obj/Debug/net7.0/CoreLayer.csproj.AssemblyReference.cache
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/obj/Debug/net7.0/CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/obj/Debug/net7.0/CoreLayer.AssemblyInfoInputs.cache
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/obj/Debug/net7.0/CoreLayer.AssemblyInfo.cs
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/obj/Debug/net7.0/CoreLayer.csproj.CoreCompileInputs.cache
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/obj/Debug/net7.0/CoreLayer.dll
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/obj/Debug/net7.0/refint/CoreLayer.dll
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/obj/Debug/net7.0/CoreLayer.pdb
+/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/obj/Debug/net7.0/ref/CoreLayer.dll
