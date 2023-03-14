@@ -3484,11 +3484,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/DataAccessLayer/DataAccessLayer.csproj",
+      "projectUniqueName": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/DataAccessLayer/DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/DataAccessLayer/DataAccessLayer.csproj",
+      "projectPath": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/DataAccessLayer/DataAccessLayer.csproj",
       "packagesPath": "/Users/enescigdem/.nuget/packages/",
-      "outputPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/DataAccessLayer/obj/",
+      "outputPath": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/DataAccessLayer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/enescigdem/.nuget/NuGet/NuGet.Config"
@@ -3503,8 +3503,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/EntityLayer.csproj": {
-              "projectPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/EntityLayer/EntityLayer.csproj"
+            "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/EntityLayer/EntityLayer.csproj": {
+              "projectPath": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/EntityLayer/EntityLayer.csproj"
             }
           }
         }

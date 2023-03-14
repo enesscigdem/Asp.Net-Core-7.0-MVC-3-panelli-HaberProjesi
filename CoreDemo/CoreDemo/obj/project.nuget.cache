@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LYhigQJJlgHkpsJfiAjbCSZxxlI8prVYIoVHgCnp0d0hJE+7dG3HIHw8UqDmeDC4pdS7YZOA6eCMvKSYvhPXNQ==",
+  "dgSpecHash": "k5twmZqu5UvBdjDUaJkYrJu9p7ubFa3irEJNcp23hik3+vowzfscV/IZCP0Z3GOrD7JhfMLXZHipGdMr3qKSjA==",
   "success": true,
-  "projectFilePath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreDemo/CoreDemo.csproj",
+  "projectFilePath": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/CoreDemo.csproj",
   "expectedPackageFiles": [
     "/Users/enescigdem/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/enescigdem/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dAh2eUajpj/DQXxcWTrV9CDMKo/x7+dhbL4fCujSprlDlwlkQhgqOB0gliPaFh9/eaZLNFvPtyEzA8V+/B03xQ==",
+  "dgSpecHash": "1G28+ZjMgySq1VP/ZinGLi9Vxq+aX7jS7N4d+pq7bUOqH0ZQUe+w4AwAt+Jb9A5zZjR1aULIhd82w4xAnjJJJg==",
   "success": true,
-  "projectFilePath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/CoreLayer.csproj",
+  "projectFilePath": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreLayer/CoreLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

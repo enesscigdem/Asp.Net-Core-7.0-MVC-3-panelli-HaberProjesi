@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/CoreLayer.csproj": {}
+    "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreLayer/CoreLayer.csproj": {}
   },
   "projects": {
-    "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/CoreLayer.csproj": {
+    "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreLayer/CoreLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/CoreLayer.csproj",
+        "projectUniqueName": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreLayer/CoreLayer.csproj",
         "projectName": "CoreLayer",
-        "projectPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/CoreLayer.csproj",
+        "projectPath": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreLayer/CoreLayer.csproj",
         "packagesPath": "/Users/enescigdem/.nuget/packages/",
-        "outputPath": "/Users/enescigdem/Desktop/CoreBlogProject/CoreDemo/CoreLayer/obj/",
+        "outputPath": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreLayer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/enescigdem/.nuget/NuGet/NuGet.Config"
