@@ -42,6 +42,9 @@
     <None Remove="Views\Admin\" />
     <None Remove="X.PagedList" />
     <None Remove="X.PagedList.Mvc.Core" />
+    <None Remove="ClosedXML" />
+    <None Remove="Areas\Admin\Models\" />
+    <None Remove="Areas\Admin\Views\Blog\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.1" />
@@ -49,6 +52,7 @@
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
     <PackageReference Include="X.PagedList" Version="8.4.7" />
     <PackageReference Include="X.PagedList.Mvc.Core" Version="8.4.7" />
+    <PackageReference Include="ClosedXML" Version="0.100.3" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
@@ -91,6 +95,8 @@
     <Folder Include="Views\Notification\" />
     <Folder Include="Views\Message\" />
     <Folder Include="Views\Admin\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\Blog\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\WriterImageFiles\" />

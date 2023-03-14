@@ -1,12 +1,15 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Areas/Admin/Controllers/BlogController.cs">
+    <Files>
+      <File FileName="CoreDemo/Areas/Admin/Controllers/BlogController.cs" Line="16" Column="19" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CoreDemo" expanded="True">
             <Node name="CoreDemo" expanded="True">
-              <Node name="wwwroot" expanded="True">
-                <Node name="inspinia-gh-pages" expanded="True" selected="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True" selected="True" />
               </Node>
             </Node>
           </Node>

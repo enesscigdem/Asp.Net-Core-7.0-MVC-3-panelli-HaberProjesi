@@ -1741,3 +1741,10 @@
 /Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/JetBrains.Annotations.dll
 /Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/X.PagedList.dll
 /Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/X.PagedList.Mvc.Core.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/ClosedXML.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/DocumentFormat.OpenXml.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/ExcelNumberFormat.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/Irony.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/SixLabors.Fonts.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/System.IO.Packaging.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/XLParser.dll
