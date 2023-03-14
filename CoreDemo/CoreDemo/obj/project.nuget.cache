@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "k5twmZqu5UvBdjDUaJkYrJu9p7ubFa3irEJNcp23hik3+vowzfscV/IZCP0Z3GOrD7JhfMLXZHipGdMr3qKSjA==",
+  "dgSpecHash": "8nN9oBXMl2cn/fkANwJFdVeQDGfX1M0UFvwHtTxqRHJpGrkWfCuJzzJ7G8MrpmY2PGpQJ+2WkRCfbNvXyRgOsg==",
   "success": true,
   "projectFilePath": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/CoreDemo.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/enescigdem/.nuget/packages/fluentvalidation.aspnetcore/11.2.2/fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
     "/Users/enescigdem/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.2.1/fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "/Users/enescigdem/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/jetbrains.annotations/2022.3.1/jetbrains.annotations.2022.3.1.nupkg.sha512",
     "/Users/enescigdem/.nuget/packages/microsoft.aspnetcore.mvc.razor.extensions/6.0.0/microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
     "/Users/enescigdem/.nuget/packages/microsoft.aspnetcore.mvc.razor.runtimecompilation/7.0.1/microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.1.nupkg.sha512",
     "/Users/enescigdem/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.11/microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
@@ -184,7 +185,9 @@
     "/Users/enescigdem/.nuget/packages/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/Users/enescigdem/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
     "/Users/enescigdem/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "/Users/enescigdem/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
+    "/Users/enescigdem/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/x.pagedlist/8.4.7/x.pagedlist.8.4.7.nupkg.sha512",
+    "/Users/enescigdem/.nuget/packages/x.pagedlist.mvc.core/8.4.7/x.pagedlist.mvc.core.8.4.7.nupkg.sha512"
   ],
   "logs": []
 }

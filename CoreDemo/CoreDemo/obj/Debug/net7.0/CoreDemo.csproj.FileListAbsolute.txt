@@ -1738,3 +1738,6 @@
 /Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/obj/Debug/net7.0/CoreDemo.csproj.CopyComplete
 /Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/obj/Debug/net7.0/CoreDemo.genruntimeconfig.cache
 /Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/obj/Debug/net7.0/ref/CoreDemo.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/JetBrains.Annotations.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/X.PagedList.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/X.PagedList.Mvc.Core.dll
