@@ -53,6 +53,7 @@
     <None Remove="Areas\Admin\Views\Shared\Components\Statistic1\" />
     <None Remove="Areas\Admin\Views\Shared\Components\Statistic2\" />
     <None Remove="Areas\Admin\Views\Shared\Components\Statistic4\" />
+    <None Remove="Areas\Admin\Views\Chart\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.1" />
@@ -113,6 +114,7 @@
     <Folder Include="Areas\Admin\Views\Shared\Components\Statistic1\" />
     <Folder Include="Areas\Admin\Views\Shared\Components\Statistic2\" />
     <Folder Include="Areas\Admin\Views\Shared\Components\Statistic4\" />
+    <Folder Include="Areas\Admin\Views\Chart\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\WriterImageFiles\" />
