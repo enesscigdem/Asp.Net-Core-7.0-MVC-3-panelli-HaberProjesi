@@ -2,12 +2,11 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Areas/Admin/Views/Chart/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Areas/Admin/Views/Writer/Index.cshtml">
     <Files>
-      <File FileName="CoreDemo/Areas/Admin/Controllers/BlogController.cs" />
-      <File FileName="CoreDemo/Areas/Admin/Models/BlogModel.cs" />
-      <File FileName="CoreDemo/Areas/Admin/Views/Blog/BlogListExcel.cshtml" Line="13" Column="9" />
-      <File FileName="CoreDemo/Areas/Admin/Views/Chart/Index.cshtml" Line="35" Column="39" />
+      <File FileName="CoreDemo/Areas/Admin/Models/WriterClass.cs" Line="3" Column="2" />
+      <File FileName="CoreDemo/Areas/Admin/Controllers/WriterController.cs" Line="24" Column="38" />
+      <File FileName="CoreDemo/Areas/Admin/Views/Writer/Index.cshtml" Line="27" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,12 +18,14 @@
                   <Node name="Controllers" expanded="True" />
                   <Node name="Models" expanded="True" />
                   <Node name="Views" expanded="True">
-                    <Node name="Blog" expanded="True" />
-                    <Node name="Chart" expanded="True">
+                    <Node name="Writer" expanded="True">
                       <Node name="Index.cshtml" selected="True" />
                     </Node>
                   </Node>
                 </Node>
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>

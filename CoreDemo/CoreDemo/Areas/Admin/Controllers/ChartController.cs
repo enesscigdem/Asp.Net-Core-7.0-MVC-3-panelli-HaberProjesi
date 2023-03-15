@@ -10,6 +10,7 @@ namespace CoreDemo.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [AllowAnonymous]
+    //Google chart
     public class ChartController : Controller
     {
         public IActionResult Index()
