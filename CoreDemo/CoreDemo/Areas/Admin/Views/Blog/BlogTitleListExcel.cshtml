@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "BlogTitleListExcel";
+    Layout = "AdminLayout";
+}
+
+<h1>BlogTitleListExcel</h1>
+<br />
+<a class="btn btn-info" href="/Admin/Blog/ExportDynamicExcelBlogList">Excel Listesini İndir</a>
+<script>
+    function DownloadExcelBlogList() {
+        window.open("/Admin/Blog/ExportStaticExcelBlogList");
+    }
+</script>

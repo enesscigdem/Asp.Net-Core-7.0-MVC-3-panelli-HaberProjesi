@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Areas/Admin/Controllers/BlogController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Areas/Admin/Views/Blog/BlogListExcel.cshtml">
     <Files>
-      <File FileName="CoreDemo/Areas/Admin/Controllers/BlogController.cs" Line="16" Column="19" />
+      <File FileName="CoreDemo/Areas/Admin/Controllers/BlogController.cs" Line="35" Column="74" />
+      <File FileName="CoreDemo/Areas/Admin/Models/BlogModel.cs" Line="7" Column="25" />
+      <File FileName="CoreDemo/Areas/Admin/Views/Blog/BlogListExcel.cshtml" Line="13" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,7 +11,13 @@
           <Node name="CoreDemo" expanded="True">
             <Node name="CoreDemo" expanded="True">
               <Node name="Areas" expanded="True">
-                <Node name="Admin" expanded="True" selected="True" />
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Models" expanded="True" />
+                  <Node name="Views" expanded="True">
+                    <Node name="Blog" expanded="True" />
+                  </Node>
+                </Node>
               </Node>
             </Node>
           </Node>
