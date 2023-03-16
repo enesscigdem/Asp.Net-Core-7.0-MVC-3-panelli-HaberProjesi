@@ -1,12 +1,11 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Areas/Admin/Views/Writer/Index.cshtml">
     <Files>
       <File FileName="CoreDemo/Areas/Admin/Models/WriterClass.cs" Line="3" Column="2" />
-      <File FileName="CoreDemo/Areas/Admin/Controllers/WriterController.cs" Line="24" Column="38" />
-      <File FileName="CoreDemo/Areas/Admin/Views/Writer/Index.cshtml" Line="27" Column="2" />
+      <File FileName="CoreDemo/Areas/Admin/Controllers/WriterController.cs" />
+      <File FileName="CoreDemo/Areas/Admin/Views/Writer/Index.cshtml" Line="4" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,9 +17,7 @@
                   <Node name="Controllers" expanded="True" />
                   <Node name="Models" expanded="True" />
                   <Node name="Views" expanded="True">
-                    <Node name="Writer" expanded="True">
-                      <Node name="Index.cshtml" selected="True" />
-                    </Node>
+                    <Node name="Writer" expanded="True" />
                   </Node>
                 </Node>
               </Node>
@@ -33,8 +30,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
