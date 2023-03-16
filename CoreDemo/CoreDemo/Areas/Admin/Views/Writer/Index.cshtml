@@ -9,6 +9,9 @@
 <br />
 <button type="button" id="btngetlist" class="btn btn-outline-primary">Yazar Listesi</button>
 <button type="button" id="btngetbyid" class="btn btn-outline-success">Yazar Getir</button>
+<button type="button" id="btnaddwriter" class="btn btn-outline-info">Yazar Ekle</button>
+<button type="button" id="btndeletewriter" class="btn btn-outline-danger">Yazar Sil</button>
+<button type="button" id="btnupdatewriter" class="btn btn-outline-warning">Yazar Güncelle</button>
 <br />
 <br />
 <div id="writerlist">Buraya yazarlar gelecek.</div>
@@ -16,9 +19,20 @@
 <div id="writerget">Buraya 1 yazar gelecek.</div>
 <br />
 <div>
-    <input type="text" id="writerid" placeholder="Yazar ID değerini girin." class="form-control" />
+    <input type="text" id="writerid" placeholder="Yazar ID değerini girin (Yazar Getir İçin)" class="form-control" />
 </div>
-
+<br />
+<div>
+    <input type="text" class="form-control" id="txtwriterid" placeholder="Yazar ID" />
+    <input type="text" class="form-control" id="txtwritername" placeholder="Yazar Adı" />
+</div>
+<br />
+<div>
+    <input type="text" class="form-control" id="txtid" placeholder="Silinecek Yazar ID" />
+</div>
+<br />
+<input type="text" id="txtid1" class="form-control" placeholder="Güncellenecek ID" />
+<input type="text" id="txtwritername1" class="form-control" placeholder="Güncellenecek İsim" />
 @section scripts{
     <script>$("#btngetlist").click(function () {
             $.ajax({
@@ -57,6 +71,54 @@
                     $("#writerget").html(getvalue);
                 }
 
+            });
+        });
+
+        //Ajax İle Ekleme
+        $("#btnaddwriter").click(function () {
+            let writer = {
+                Id: $("#txtwriterid").val(),
+                Name: $("#txtwritername").val()
+            };
+
+            $.ajax({
+                type: "post",
+                url: "/Admin/Writer/AddWriter",
+                data: writer,
+                success: function (func) {
+                    let result = jQuery.parseJSON(func);
+                    alert("Yazar Ekleme İşlemi Başarılı Bir Şekilde Gerçekleşti");
+                }
+            });
+        });
+
+        //Ajax İle Silme
+        $("#btndeletewriter").click(function () {
+            let id = $("#txtid").val();
+            $.ajax({
+                url: "/Admin/Writer/DeleteWriter/" + id,
+                type: "post",
+                dataType: "json",
+                success: function (func) {
+                    alert("Yazar Silme İşlemi Başarılı Bir Şekilde Gerçekleşti");
+                }
+            });
+        });
+
+        //Ajax İle Güncelleme
+        $("#btnupdatewriter").click(function () {
+            let writer = {
+                Id: $("#txtid1").val(),
+                Name: $("#txtwritername1").val()
+            };
+
+            $.ajax({
+                type: "post",
+                url: "/Admin/Writer/UpdateWriter",
+                data: writer,
+                success: function (func) {
+                    alert("Güncelleme Yapıldı");
+                }
             });
         });</script>
 }
