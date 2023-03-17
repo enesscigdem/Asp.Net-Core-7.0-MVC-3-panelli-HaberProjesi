@@ -1,22 +1,24 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="BlogApiDemo/Controllers/DefaultController.cs">
     <Files>
-      <File FileName="BlogApiDemo/Controllers/WeatherForecastController.cs" Line="29" Column="11" />
-      <File FileName="BlogApiDemo/Controllers/DefaultController.cs" Line="10" Column="2" />
+      <File FileName="BlogApiDemo/Controllers/WeatherForecastController.cs" />
+      <File FileName="BlogApiDemo/Controllers/DefaultController.cs" Line="45" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CoreDemo" expanded="True">
-            <Node name="BlogApiDemo" expanded="True" selected="True">
-              <Node name="Controllers" expanded="True" />
+            <Node name="BlogApiDemo" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="DefaultController.cs" selected="True" />
+              </Node>
               <Node name="DataAccessLayer" expanded="True" />
             </Node>
           </Node>
