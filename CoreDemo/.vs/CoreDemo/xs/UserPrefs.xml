@@ -1,37 +1,27 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Areas/Admin/Views/Writer/Index.cshtml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlogApiDemo/Controllers/DefaultController.cs">
     <Files>
-      <File FileName="CoreDemo/Areas/Admin/Models/WriterClass.cs" Line="1" Column="1" />
-      <File FileName="CoreDemo/Areas/Admin/Controllers/WriterController.cs" Line="54" Column="35" />
-      <File FileName="CoreDemo/Areas/Admin/Views/Writer/Index.cshtml" Line="77" Column="23" />
+      <File FileName="BlogApiDemo/Controllers/WeatherForecastController.cs" Line="29" Column="11" />
+      <File FileName="BlogApiDemo/Controllers/DefaultController.cs" Line="10" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CoreDemo" expanded="True">
-            <Node name="CoreDemo" expanded="True">
-              <Node name="Areas" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="Controllers" expanded="True" />
-                  <Node name="Models" expanded="True" />
-                  <Node name="Views" expanded="True">
-                    <Node name="Writer" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True" />
-              </Node>
+            <Node name="BlogApiDemo" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DataAccessLayer" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.BlogApiDemo FirstBuild="True" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
 </Properties>

@@ -36,21 +36,22 @@
 <br />
 @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }))
 
-
-<script>function sil() {
-    var id = $(event.target).data("id");
-    swal({
-        title: "Kategoriyi silmek istediğinizden emin misiniz?",
-        text: "Kategoriyi sildiğiniz takdirde geri alamazsınız",
-        icon: "warning",
-        buttons: true,
-        dangerMode: true,
-    })
-        .then((willDelete) => {
-            if (willDelete) {
-                window.location.href = "/Admin/Category/DeleteCategory/" + id;
-            } else {
-                swal("Kategori Silme İşlemi İptal Edilmiştir.");
-            }
-        });
-    }</script>
+@section scripts{
+    <script>function sil() {
+            var id = $(event.target).data("id");
+            swal({
+                title: "Kategoriyi silmek istediğinizden emin misiniz?",
+                text: "Kategoriyi sildiğiniz takdirde geri alamazsınız",
+                icon: "warning",
+                buttons: true,
+                dangerMode: true,
+            })
+                .then((willDelete) => {
+                    if (willDelete) {
+                        window.location.href = "/Admin/Category/DeleteCategory/" + id;
+                    } else {
+                        swal("Kategori Silme İşlemi İptal Edilmiştir.");
+                    }
+                });
+        }</script>
+    }
