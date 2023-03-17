@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
   <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Areas/Admin/Views/Writer/Index.cshtml">
     <Files>
-      <File FileName="CoreDemo/Areas/Admin/Models/WriterClass.cs" />
-      <File FileName="CoreDemo/Areas/Admin/Controllers/WriterController.cs" Line="28" Column="74" />
-      <File FileName="CoreDemo/Areas/Admin/Views/Writer/Index.cshtml" Line="52" Column="17" />
+      <File FileName="CoreDemo/Areas/Admin/Models/WriterClass.cs" Line="1" Column="1" />
+      <File FileName="CoreDemo/Areas/Admin/Controllers/WriterController.cs" Line="54" Column="35" />
+      <File FileName="CoreDemo/Areas/Admin/Views/Writer/Index.cshtml" Line="77" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,11 +28,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BlogApiDemo FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
