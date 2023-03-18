@@ -1,17 +1,42 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BlogApiDemo/Controllers/DefaultController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Areas/Admin/ViewComponents/Statistic/Statistic1.cs">
     <Files>
       <File FileName="BlogApiDemo/Controllers/DefaultController.cs" Line="1" Column="1" />
+      <File FileName="CoreDemo/Views/Shared/AdminLayout.cshtml" Line="209" Column="45" />
+      <File FileName="CoreDemo/Areas/Admin/Controllers/WidgetController.cs" Line="1" Column="1" />
+      <File FileName="CoreDemo/Areas/Admin/Controllers/ChartController.cs" Line="1" Column="1" />
+      <File FileName="CoreDemo/Areas/Admin/ViewComponents/Statistic/Statistic4.cs" Line="1" Column="1" />
+      <File FileName="CoreDemo/Areas/Admin/ViewComponents/Statistic/Statistic2.cs" Line="1" Column="1" />
+      <File FileName="CoreDemo/Areas/Admin/ViewComponents/Statistic/Statistic1.cs" Line="21" Column="91" />
+      <File FileName="CoreDemo/Areas/Admin/Views/Shared/Components/Statistic1/Default.cshtml" Line="20" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CoreDemo" expanded="True">
-            <Node name="BlogApiDemo" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="DefaultController.cs" selected="True" />
+            <Node name="BlogApiDemo" expanded="True" />
+            <Node name="CoreDemo" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="ViewComponents" expanded="True">
+                    <Node name="Statistic" expanded="True">
+                      <Node name="Statistic1.cs" selected="True" />
+                    </Node>
+                  </Node>
+                  <Node name="Views" expanded="True">
+                    <Node name="Shared" expanded="True">
+                      <Node name="Components" expanded="True">
+                        <Node name="Statistic1" expanded="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -19,9 +44,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
