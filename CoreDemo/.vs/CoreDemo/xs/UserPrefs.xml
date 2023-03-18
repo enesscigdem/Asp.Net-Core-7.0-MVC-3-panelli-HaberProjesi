@@ -1,22 +1,19 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Areas/Admin/ViewComponents/Statistic/Statistic1.cs">
-    <Files>
-      <File FileName="BlogApiDemo/Controllers/DefaultController.cs" Line="1" Column="1" />
-      <File FileName="CoreDemo/Views/Shared/AdminLayout.cshtml" Line="209" Column="45" />
-      <File FileName="CoreDemo/Areas/Admin/Controllers/WidgetController.cs" Line="1" Column="1" />
-      <File FileName="CoreDemo/Areas/Admin/Controllers/ChartController.cs" Line="1" Column="1" />
-      <File FileName="CoreDemo/Areas/Admin/ViewComponents/Statistic/Statistic4.cs" Line="1" Column="1" />
-      <File FileName="CoreDemo/Areas/Admin/ViewComponents/Statistic/Statistic2.cs" Line="1" Column="1" />
-      <File FileName="CoreDemo/Areas/Admin/ViewComponents/Statistic/Statistic1.cs" Line="21" Column="91" />
-      <File FileName="CoreDemo/Areas/Admin/Views/Shared/Components/Statistic1/Default.cshtml" Line="20" Column="44" />
-    </Files>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CoreDemo" expanded="True">
-            <Node name="BlogApiDemo" expanded="True" />
+            <Node name="BlogApiDemo" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
             <Node name="CoreDemo" expanded="True">
               <Node name="Areas" expanded="True">
                 <Node name="Admin" expanded="True">
@@ -44,9 +41,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
