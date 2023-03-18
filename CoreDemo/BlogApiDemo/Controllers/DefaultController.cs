@@ -57,6 +57,7 @@ namespace BlogApiDemo.Controllers
                 return Ok(employee);
             }
         }
+        //Api ile Veri Güncelleme
         [HttpPut]
         public IActionResult EmployeeUpdate(Employee employee)
         {
