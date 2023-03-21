@@ -4,6 +4,96 @@
     "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/CoreDemo.csproj": {}
   },
   "projects": {
+    "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/BlogApiDemo/BlogApiDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/BlogApiDemo/BlogApiDemo.csproj",
+        "projectName": "BlogApiDemo",
+        "projectPath": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/BlogApiDemo/BlogApiDemo.csproj",
+        "packagesPath": "/Users/enescigdem/.nuget/packages/",
+        "outputPath": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/BlogApiDemo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/enescigdem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.0-preview.6.22330.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/BusinessLayer/BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -92,6 +182,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/BlogApiDemo/BlogApiDemo.csproj": {
+                "projectPath": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/BlogApiDemo/BlogApiDemo.csproj"
+              },
               "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/BusinessLayer/BusinessLayer.csproj": {
                 "projectPath": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/BusinessLayer/BusinessLayer.csproj"
               },

@@ -55,6 +55,7 @@
     <None Remove="Areas\Admin\Views\Shared\Components\Statistic4\" />
     <None Remove="Areas\Admin\Views\Chart\" />
     <None Remove="Areas\Admin\Views\Writer\" />
+    <None Remove="Views\EmployeeTest\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.1" />
@@ -72,6 +73,9 @@
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\BlogApiDemo\BlogApiDemo.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>
@@ -117,6 +121,7 @@
     <Folder Include="Areas\Admin\Views\Shared\Components\Statistic4\" />
     <Folder Include="Areas\Admin\Views\Chart\" />
     <Folder Include="Areas\Admin\Views\Writer\" />
+    <Folder Include="Views\EmployeeTest\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\WriterImageFiles\" />

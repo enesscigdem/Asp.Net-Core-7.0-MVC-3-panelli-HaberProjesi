@@ -1748,3 +1748,13 @@
 /Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/SixLabors.Fonts.dll
 /Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/System.IO.Packaging.dll
 /Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/XLParser.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/BlogApiDemo.deps.json
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/BlogApiDemo.runtimeconfig.json
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/BlogApiDemo
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/BlogApiDemo.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/BlogApiDemo.pdb

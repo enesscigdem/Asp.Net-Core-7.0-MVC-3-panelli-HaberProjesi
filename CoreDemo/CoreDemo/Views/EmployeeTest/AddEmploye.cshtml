@@ -1,0 +1,17 @@
+@using CoreDemo.Controllers
+@model Class1
+@{
+    ViewData["Title"] = "AddEmploye";
+    Layout = "AdminLayout";
+}
+
+<h1>Yeni Çalışan Girişi</h1>
+<br />
+<form method="post">
+    <div class="form-group">
+        <label>Name:</label>
+        <input type="text" name="Name" value="@Model.Name" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>
+@section scripts{ }

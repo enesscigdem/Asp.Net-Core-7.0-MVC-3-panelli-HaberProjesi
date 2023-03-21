@@ -1,31 +1,34 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Views/EmployeeTest/AddEmploye.cshtml">
+    <Files>
+      <File FileName="CoreDemo/Views/EmployeeTest/AddEmploye.cshtml" Line="17" Column="1" />
+      <File FileName="CoreDemo/Controllers/EmployeeTestController.cs" Line="24" Column="25" />
+      <File FileName="CoreDemo/Views/EmployeeTest/Index.cshtml" Line="28" Column="35" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CoreDemo" expanded="True" selected="True">
-            <Node name="BlogApiDemo" expanded="True">
-              <Node name="Controllers" expanded="True" />
-            </Node>
+          <Node name="CoreDemo" expanded="True">
             <Node name="CoreDemo" expanded="True">
-              <Node name="Areas" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="Controllers" expanded="True" />
-                  <Node name="ViewComponents" expanded="True">
-                    <Node name="Statistic" expanded="True" />
-                  </Node>
-                  <Node name="Views" expanded="True">
-                    <Node name="Shared" expanded="True">
-                      <Node name="Components" expanded="True">
-                        <Node name="Statistic1" expanded="True" />
-                      </Node>
-                    </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Blog" expanded="True" />
+                <Node name="EmployeeTest" expanded="True">
+                  <Node name="AddEmploye.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="BlogLast3Post" expanded="True" />
+                    <Node name="BlogListDashboard" expanded="True" />
                   </Node>
                 </Node>
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -33,10 +36,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

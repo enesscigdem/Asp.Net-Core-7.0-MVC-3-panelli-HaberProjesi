@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "GpZ42k65UCRCwntOz77XkIQAIILS1JHJ9MX129N4lEA=",
+  "Hash": "OC2DotUlIcYwElsXlDijb8pBH8VdfFrOHiGY4fS3bjg=",
   "Source": "CoreDemo",
   "BasePath": "_content/CoreDemo",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/BlogApiDemo/BlogApiDemo.csproj",
+      "Version": 2,
+      "Source": "BlogApiDemo",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "CoreDemo/wwwroot",
