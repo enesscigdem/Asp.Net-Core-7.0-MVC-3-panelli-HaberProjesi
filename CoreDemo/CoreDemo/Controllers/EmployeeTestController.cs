@@ -30,12 +30,24 @@ namespace CoreDemo.Controllers
             var httpClient = new HttpClient();
             var jsonEmployee = JsonConvert.SerializeObject(p);
             StringContent content = new StringContent(jsonEmployee, System.Text.Encoding.UTF8, "application/json");
-            var responseMessage = await httpClient.PostAsync("https://localhost:7013/api/Default",content);
+            var responseMessage = await httpClient.PostAsync("https://localhost:7013/api/Default", content);
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
             }
             return View(p);
+        }
+        public async Task<IActionResult> EditEmployee(int id)
+        {
+            var httpClient = new HttpClient();
+            var responseMessage = await httpClient.GetAsync("https://localhost:7013/api/Default/" + id);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var jsonEmployee = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<List<Class1>>(jsonEmployee);
+                return View(values);
+            }
+            return RedirectToAction("Index");
         }
     }
     public class Class1
