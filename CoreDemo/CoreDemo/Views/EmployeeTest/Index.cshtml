@@ -4,7 +4,8 @@
     ViewData["Title"] = "Index";
     Layout = "AdminLayout";
 }
-
+<h1>Api İle Çalışan Listeleme</h1>
+<br />
 <div class="card">
     <table class="table table-hover">
         <tr>
@@ -18,7 +19,7 @@
             <tr>
                 <td>@item.ID</td>
                 <td>@item.Name</td>
-                <td><a href="/Blog/DeleteBlog/@item.ID" class="btn btn-outline-danger">Sil</a></td>
+                <td><a href="/EmployeeTest/DeleteEmployee/@item.ID" class="btn btn-outline-danger">Sil</a></td>
                 <td><a href="/EmployeeTest/EditEmployee/@item.ID" class="btn btn-outline-success">Düzenle</a></td>
             </tr>
         }

@@ -1,8 +1,17 @@
+@model CoreDemo.Controllers.Class1
 @{
     ViewData["Title"] = "EditEmployee";
     Layout = "AdminLayout";
 }
 
-<h1>EditEmployee</h1>
-
-@section scripts{ }
+<h1>Api İle Personel Güncelleme Sayfası</h1>
+<br />
+<form method="post">
+    @Html.HiddenFor(x => x.ID, new { @class = "form-control" })
+    <br />
+    <label>Personel</label>
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-outline-success">Güncelle</button>
+</form>
+@section scripts{ } 
