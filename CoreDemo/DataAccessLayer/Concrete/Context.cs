@@ -1,11 +1,12 @@
 ﻿using System;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer.Concrete
 {
 	// Dbcontext sınıfından miras alarak microsoft.entityframeworkcore'u import ediyoruz.
-	public class Context:DbContext
+	public class Context:IdentityDbContext
 	{
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
@@ -38,6 +39,7 @@ namespace DataAccessLayer.Concrete
                 .HasForeignKey(z => z.ReceiverID)
                 .OnDelete(DeleteBehavior.ClientSetNull);
 
+            base.OnModelCreating(modelBuilder);
             //HomeMatches-->WriterSender
             //AwayMatches-->WriterReceiver
             //HomeTeam-->SenderUser

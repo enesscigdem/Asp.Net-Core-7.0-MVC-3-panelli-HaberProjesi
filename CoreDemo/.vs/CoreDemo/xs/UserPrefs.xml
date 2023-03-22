@@ -1,47 +1,27 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Views/EmployeeTest/EditEmployee.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccessLayer/Concrete/Context.cs">
     <Files>
-      <File FileName="CoreDemo/Controllers/EmployeeTestController.cs" Line="40" Column="54" />
-      <File FileName="CoreDemo/Views/EmployeeTest/Index.cshtml" Line="22" Column="56" />
-      <File FileName="CoreDemo/Views/EmployeeTest/AddEmploye.cshtml" Line="17" Column="1" />
-      <File FileName="CoreDemo/Views/EmployeeTest/EditEmployee.cshtml" Line="8" Column="20" />
+      <File FileName="DataAccessLayer/Concrete/Context.cs" Line="25" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CoreDemo" expanded="True">
-            <Node name="CoreDemo" expanded="True">
-              <Node name="Areas" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="Views" expanded="True">
-                    <Node name="Category" expanded="True" />
-                    <Node name="Chart" expanded="True" />
-                    <Node name="Widget" expanded="True" />
-                  </Node>
-                </Node>
+            <Node name="DataAccessLayer" expanded="True">
+              <Node name="Concrete" expanded="True">
+                <Node name="Context.cs" selected="True" />
               </Node>
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="EmployeeTest" expanded="True">
-                  <Node name="EditEmployee.cshtml" selected="True" />
-                </Node>
-                <Node name="Login" expanded="True" />
-                <Node name="Shared" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="EntityLayer" expanded="True">
-              <Node name="Concrete" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
