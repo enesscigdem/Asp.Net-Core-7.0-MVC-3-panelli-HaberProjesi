@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20230315154043_mig_admin_table_add")]
-    partial class migadmintableadd
+    [Migration("20230323000958_mig_güncel2_addabout")]
+    partial class miggüncel2addabout
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

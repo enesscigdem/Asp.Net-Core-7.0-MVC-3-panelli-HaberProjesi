@@ -1005,6 +1005,10 @@
         }
       },
       "EntityLayer/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.0"
+        },
         "runtime": {
           "EntityLayer.dll": {}
         }

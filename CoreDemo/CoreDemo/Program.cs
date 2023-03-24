@@ -1,9 +1,13 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
+﻿using DataAccessLayer.Concrete;
+using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDbContext<Context>();
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>();
 // Add services to the container.
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 

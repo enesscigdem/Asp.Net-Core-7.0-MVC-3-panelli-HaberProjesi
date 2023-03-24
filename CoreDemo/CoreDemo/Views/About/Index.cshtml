@@ -1,3 +1,4 @@
+@using CoreDemo.Views.NewsLetter
 @using EntityLayer.Concrete
 @model List<About>
 @{
@@ -50,9 +51,6 @@
                         </div>
                         @await Html.PartialAsync("~/Views/NewsLetter/SubscribeMail.cshtml")
                         @await Html.PartialAsync("~/Views/About/SocialMediaAbout.cshtml")
-
-
-
 
                         <div class="tech-btm">
                             <h4>Son Postlar</h4>

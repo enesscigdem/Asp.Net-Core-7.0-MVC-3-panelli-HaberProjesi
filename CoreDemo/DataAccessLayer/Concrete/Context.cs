@@ -6,8 +6,8 @@ using Microsoft.EntityFrameworkCore;
 namespace DataAccessLayer.Concrete
 {
 	// Dbcontext sınıfından miras alarak microsoft.entityframeworkcore'u import ediyoruz.
-	public class Context:IdentityDbContext
-	{
+	public class Context:IdentityDbContext<AppUser,AppRole,int>
+    {
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 			// bağlantı stringimizi tanımlayacağız
@@ -45,8 +45,7 @@ namespace DataAccessLayer.Concrete
             //HomeTeam-->SenderUser
             //GuestTeam-->ReceiverUser
         }
-        public DbSet<About> Abouts { get; set; }
-		public DbSet<Blog> Blogs { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
 		public DbSet<Category> Categories { get; set; }
 		public DbSet<Comment> Comments { get; set; }
 		public DbSet<Contact> Contacts { get; set; }
@@ -59,6 +58,8 @@ namespace DataAccessLayer.Concrete
         public DbSet<Match> Matches { get; set; }
         public DbSet<Message2> Message2s { get; set; }
         public DbSet<Admin> Admins { get; set; }
+        public DbSet<About> Abouts { get; set; }
+
     }
 }
 
