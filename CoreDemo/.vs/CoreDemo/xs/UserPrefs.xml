@@ -1,32 +1,27 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Views/Login/Index.cshtml">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Controllers/NewsLetterController.cs">
     <Files>
-      <File FileName="CoreDemo/Models/UserSignUpViewModel.cs" Line="9" Column="61" />
-      <File FileName="CoreDemo/Controllers/RegisterUserController.cs" Line="25" Column="19" />
-      <File FileName="CoreDemo/Views/RegisterUser/Index.cshtml" Line="1" Column="1" />
-      <File FileName="CoreDemo/Controllers/LoginController.cs" Line="31" Column="41" />
-      <File FileName="CoreDemo/Models/UserSignInViewModel.cs" Line="12" Column="3" />
-      <File FileName="CoreDemo/Views/Login/Index.cshtml" Line="21" Column="78" />
+      <File FileName="CoreDemo/Controllers/BlogController.cs" Line="17" Column="21" />
+      <File FileName="CoreDemo/Controllers/NewsLetterController.cs" Line="21" Column="10" />
+      <File FileName="CoreDemo/Views/NewsLetter/SubscribeMail.cshtml" Line="18" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CoreDemo" expanded="True">
             <Node name="CoreDemo" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="NewsLetterController.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
-                <Node name="Login" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
-                <Node name="RegisterUser" expanded="True" />
+                <Node name="NewsLetter" expanded="True" />
               </Node>
             </Node>
           </Node>

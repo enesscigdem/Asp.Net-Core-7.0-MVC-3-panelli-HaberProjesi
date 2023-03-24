@@ -40,7 +40,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseAuthentication();
-app.UseRouting();       
+app.UseRouting();
+app.UseStatusCodePagesWithRedirects("/Login/Index?ReturnUrl={0}"); //
 
 app.UseAuthorization();
 app.MapControllerRoute(
