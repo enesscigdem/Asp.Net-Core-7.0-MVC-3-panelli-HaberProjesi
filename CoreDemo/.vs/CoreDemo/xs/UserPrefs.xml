@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Views/RegisterUser/Index.cshtml">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Views/Login/Index.cshtml">
     <Files>
-      <File FileName="CoreDemo/Models/UserSignUpViewModel.cs" Line="12" Column="34" />
+      <File FileName="CoreDemo/Models/UserSignUpViewModel.cs" Line="9" Column="61" />
       <File FileName="CoreDemo/Controllers/RegisterUserController.cs" Line="25" Column="19" />
-      <File FileName="CoreDemo/Views/ViewImports.cshtml" Line="2" Column="53" />
-      <File FileName="CoreDemo/Views/RegisterUser/Index.cshtml" Line="65" Column="10" />
+      <File FileName="CoreDemo/Views/RegisterUser/Index.cshtml" Line="1" Column="1" />
+      <File FileName="CoreDemo/Controllers/LoginController.cs" Line="31" Column="41" />
+      <File FileName="CoreDemo/Models/UserSignInViewModel.cs" Line="12" Column="3" />
+      <File FileName="CoreDemo/Views/Login/Index.cshtml" Line="21" Column="78" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,6 +23,9 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Login" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
                 <Node name="RegisterUser" expanded="True" />
               </Node>
             </Node>
