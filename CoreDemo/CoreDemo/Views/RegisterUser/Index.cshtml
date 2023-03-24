@@ -1,8 +1,5 @@
 @using CoreDemo.Models
 @model UserSignUpViewModel
-@{
-    ViewData["Title"] = "Kayıt Ekranı";
-}
 <!DOCTYPE html>
 <html>
 
@@ -32,26 +29,27 @@
             </div>
             <h3>Kayıt Ekranı</h3>
             <p>Yeni bir hesap oluşturun.</p>
-            <form class="m-t" role="form" method="post">
+            <form class="m-t" role="form" asp-action="Index">
                 <div class="form-group">
-                    <input type="text" class="form-control" name="nameSurname" placeholder="Adınız Soyadınız">
-                    @Html.ValidationMessageFor(m => m.nameSurname, "", new { @class = "text-danger" })
+                    <span class="text-danger" asp-validation-for="@Model.nameSurname"></span>
+                    <input type="text" class="form-control" asp-for="@Model.nameSurname" name="nameSurname" placeholder="Adınız Soyadınız">
+                    @*@Html.ValidationMessageFor(m => m.nameSurname, "", new { @class = "text-danger" })*@
                 </div>
                 <div class="form-group">
-                    <input type="email" class="form-control" name="Mail" placeholder="Email" required>
-                    @Html.ValidationMessageFor(m => m.Mail, "", new { @class = "text-danger" })
+                    <span class="text-danger" asp-validation-for="@Model.Mail"></span>
+                    <input type="email" class="form-control" asp-for="@Model.Mail" placeholder="Email" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" name="UserName" placeholder="Kullanıcı Adınız">
-                    @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+                    <span class="text-danger" asp-validation-for="@Model.UserName"></span>
+                    <input type="text" class="form-control" asp-for="@Model.UserName" placeholder="Kullanıcı Adınız">
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" name="Password" placeholder="Şifre">
-                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                    <span class="text-danger" asp-validation-for="@Model.Password"></span>
+                    <input type="password" class="form-control" asp-for="@Model.Password" placeholder="Şifre">
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" name="ConfirmPassword" placeholder="Şifre Tekrar">
-                    @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
+                    <span class="text-danger" asp-validation-for="@Model.ConfirmPassword"></span>
+                    <input type="password" class="form-control" asp-for="@Model.ConfirmPassword" placeholder="Şifre Tekrar">
                 </div>
 
                 <div class="form-group">
@@ -62,8 +60,8 @@
                 <p class="text-muted text-center"><small>Zaten bir hesabınız var mı?</small></p>
                 <a class="btn btn-sm btn-white btn-block" href="/RegisterUser/Login">Giriş Yap</a>
 
-                <input asp-for="ModelProperty" />
                 <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+
             </form>
             <p class="m-t"> <small>Asp.Net Core 7.0 Proje Kampı | Tüm Hakları Saklıdır. &copy; @DateTime.Now.Year</small> </p>
         </div>

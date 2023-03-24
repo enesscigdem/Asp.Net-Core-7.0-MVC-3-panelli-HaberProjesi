@@ -228,10 +228,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/Views/ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlld0ltcG9ydHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/Views/Writer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV3JpdGVyL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -254,6 +250,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/Views/Writer/WriterNavbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV3JpdGVyL1dyaXRlck5hdmJhclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/Views/Shared/_Layout.cshtml]

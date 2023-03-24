@@ -1,31 +1,32 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccessLayer/Concrete/Context.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Views/RegisterUser/Index.cshtml">
     <Files>
-      <File FileName="DataAccessLayer/Concrete/Context.cs" Line="8" Column="16" />
+      <File FileName="CoreDemo/Models/UserSignUpViewModel.cs" Line="12" Column="34" />
+      <File FileName="CoreDemo/Controllers/RegisterUserController.cs" Line="25" Column="19" />
+      <File FileName="CoreDemo/Views/ViewImports.cshtml" Line="2" Column="53" />
+      <File FileName="CoreDemo/Views/RegisterUser/Index.cshtml" Line="65" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CoreDemo" expanded="True">
-            <Node name="DataAccessLayer" expanded="True">
-              <Node name="Concrete" expanded="True">
-                <Node name="Context.cs" selected="True" />
+            <Node name="CoreDemo" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="RegisterUser" expanded="True" />
               </Node>
-            </Node>
-            <Node name="EntityLayer" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Concrete" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

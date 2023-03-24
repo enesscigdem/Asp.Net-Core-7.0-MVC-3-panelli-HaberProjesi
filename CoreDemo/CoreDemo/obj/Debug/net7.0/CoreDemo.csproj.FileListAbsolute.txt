@@ -1759,3 +1759,10 @@
 /Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/obj/Debug/net7.0/CoreDemo.pdb
 /Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/obj/Debug/net7.0/CoreDemo.genruntimeconfig.cache
 /Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/obj/Debug/net7.0/ref/CoreDemo.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/refs/Microsoft.Extensions.Identity.Core.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/refs/Microsoft.Extensions.Identity.Stores.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/refs/Microsoft.Extensions.Options.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
