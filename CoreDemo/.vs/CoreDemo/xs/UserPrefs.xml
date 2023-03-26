@@ -1,27 +1,244 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Controllers/NewsLetterController.cs">
-    <Files>
-      <File FileName="CoreDemo/Controllers/BlogController.cs" Line="17" Column="21" />
-      <File FileName="CoreDemo/Controllers/NewsLetterController.cs" Line="21" Column="10" />
-      <File FileName="CoreDemo/Views/NewsLetter/SubscribeMail.cshtml" Line="18" Column="44" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CoreDemo" expanded="True">
-            <Node name="CoreDemo" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="NewsLetterController.cs" selected="True" />
+          <Node name="CoreDemo" expanded="True" selected="True">
+            <Node name="BlogApiDemo" selected="True" />
+            <Node name="BusinessLayer" expanded="True" selected="True">
+              <Node name="ConnectedServicesFolder" selected="True" />
+              <Node name="Dependencies" selected="True" />
+              <Node name="Abstract" expanded="True" selected="True">
+                <Node name="IAboutService.cs" selected="True" />
+                <Node name="IAdminService.cs" selected="True" />
+                <Node name="IBlogService.cs" selected="True" />
+                <Node name="ICategoryService.cs" selected="True" />
+                <Node name="ICommentService.cs" selected="True" />
+                <Node name="IContactService.cs" selected="True" />
+                <Node name="IGenericService.cs" selected="True" />
+                <Node name="IMessage2Service.cs" selected="True" />
+                <Node name="IMessageService.cs" selected="True" />
+                <Node name="INewsLetterService.cs" selected="True" />
+                <Node name="INotificationService.cs" selected="True" />
+                <Node name="IUserService.cs" selected="True" />
+                <Node name="IWriterService.cs" selected="True" />
               </Node>
-              <Node name="Views" expanded="True">
-                <Node name="NewsLetter" expanded="True" />
+              <Node name="Concrete" expanded="True" selected="True">
+                <Node name="AboutManager.cs" selected="True" />
+                <Node name="AdminManager.cs" selected="True" />
+                <Node name="BlogManager.cs" selected="True" />
+                <Node name="CategoryManager.cs" selected="True" />
+                <Node name="CommentManager.cs" selected="True" />
+                <Node name="ContactManager.cs" selected="True" />
+                <Node name="Message2Manager.cs" selected="True" />
+                <Node name="MessageManager.cs" selected="True" />
+                <Node name="NewsLetterManager.cs" selected="True" />
+                <Node name="NotificationManager.cs" selected="True" />
+                <Node name="UserManager.cs" selected="True" />
+                <Node name="WriterManager.cs" selected="True" />
+              </Node>
+              <Node name="ValidationRules" selected="True" />
+            </Node>
+            <Node name="CoreDemo" expanded="True" selected="True">
+              <Node name="ConnectedServicesFolder" selected="True" />
+              <Node name="Dependencies" selected="True" />
+              <Node name="Areas" selected="True" />
+              <Node name="Controllers" expanded="True" selected="True">
+                <Node name="AboutController.cs" selected="True" />
+                <Node name="AdminController.cs" selected="True" />
+                <Node name="BlogController.cs" selected="True" />
+                <Node name="Category.cs" selected="True" />
+                <Node name="CommentController.cs" selected="True" />
+                <Node name="ContactController.cs" selected="True" />
+                <Node name="DashboardController.cs" selected="True" />
+                <Node name="EmployeeTestController.cs" selected="True" />
+                <Node name="ErrorPageController.cs" selected="True" />
+                <Node name="HomeController.cs" selected="True" />
+                <Node name="LoginController.cs" selected="True" />
+                <Node name="MessageController.cs" selected="True" />
+                <Node name="NewsLetterController.cs" selected="True" />
+                <Node name="NotificationController.cs" selected="True" />
+                <Node name="RegisterController.cs" selected="True" />
+                <Node name="RegisterUserController.cs" selected="True" />
+                <Node name="WriterController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" selected="True">
+                <Node name="AddProfileImage.cs" selected="True" />
+                <Node name="ErrorViewModel.cs" selected="True" />
+                <Node name="UserSignInViewModel.cs" selected="True" />
+                <Node name="UserSignUpViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Properties" selected="True" />
+              <Node name="ViewComponents" expanded="True" selected="True">
+                <Node name="Blog" expanded="True" selected="True">
+                  <Node name="BlogLast3Post.cs" selected="True" />
+                  <Node name="BlogListDashboard.cs" selected="True" />
+                  <Node name="WriterLastBlog.cs" selected="True" />
+                </Node>
+                <Node name="Category" selected="True" />
+                <Node name="Comment" selected="True" />
+                <Node name="Writer" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True" selected="True">
+                <Node name="About" expanded="True" selected="True">
+                  <Node name="Index.cshtml" selected="True" />
+                  <Node name="SocialMediaAbout.cshtml" selected="True" />
+                </Node>
+                <Node name="Admin" expanded="True" selected="True">
+                  <Node name="AdminNavbarPartial.cshtml" selected="True" />
+                </Node>
+                <Node name="Blog" expanded="True" selected="True">
+                  <Node name="BlogAdd.cshtml" selected="True" />
+                  <Node name="BlogListByWriter.cshtml" selected="True" />
+                  <Node name="BlogReadAll.cshtml" selected="True" />
+                  <Node name="EditBlog.cshtml" selected="True" />
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Category" expanded="True" selected="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Comment" expanded="True" selected="True">
+                  <Node name="PartialAddComment.cshtml" selected="True" />
+                </Node>
+                <Node name="Contact" expanded="True" selected="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Dashboard" expanded="True" selected="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="EmployeeTest" selected="True" />
+                <Node name="ErrorPage" selected="True" />
+                <Node name="Home" selected="True" />
+                <Node name="Login" selected="True" />
+                <Node name="Message" selected="True" />
+                <Node name="NewsLetter" selected="True" />
+                <Node name="Notification" selected="True" />
+                <Node name="Register" selected="True" />
+                <Node name="RegisterUser" expanded="True" selected="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" selected="True">
+                  <Node name="Components" expanded="True" selected="True">
+                    <Node name="BlogLast3Post" selected="True" />
+                    <Node name="BlogListDashboard" expanded="True" selected="True">
+                      <Node name="Default.cshtml" selected="True" />
+                    </Node>
+                    <Node name="CategoryList" selected="True" />
+                    <Node name="CategoryListDashboard" expanded="True" selected="True">
+                      <Node name="Default.cshtml" selected="True" />
+                    </Node>
+                    <Node name="CommentListByBlog" expanded="True" selected="True">
+                      <Node name="Default.cshtml" selected="True" />
+                    </Node>
+                    <Node name="WriterAboutOnDashboard" selected="True" />
+                    <Node name="WriterLastBlog" selected="True" />
+                    <Node name="WriterMessageNotification" selected="True" />
+                    <Node name="WriterNotification" selected="True" />
+                  </Node>
+                  <Node name="_Layout.cshtml" selected="True" />
+                  <Node name="_ValidationScriptsPartial.cshtml" selected="True" />
+                  <Node name="AdminLayout.cshtml" selected="True" />
+                  <Node name="Partial1.cshtml" selected="True" />
+                  <Node name="Partial2.cshtml" selected="True" />
+                  <Node name="Partial3.cshtml" selected="True" />
+                  <Node name="UserLayout.cshtml" selected="True" />
+                  <Node name="WriterLayout.cshtml" selected="True" />
+                </Node>
+                <Node name="Writer" expanded="True" selected="True">
+                  <Node name="Index.cshtml" selected="True" />
+                  <Node name="Test.cshtml" selected="True" />
+                  <Node name="WriterAdd.cshtml" selected="True" />
+                  <Node name="WriterEditProfile.cshtml" selected="True" />
+                  <Node name="WriterFooterPartial.cshtml" selected="True" />
+                  <Node name="WriterNavbarPartial.cshtml" selected="True" />
+                </Node>
+                <Node name="_ViewImports.cshtml" selected="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" selected="True">
+                <Node name="CoreBlogTema" selected="True" />
+                <Node name="css" selected="True" />
+                <Node name="inspinia-gh-pages" selected="True" />
+                <Node name="js" selected="True" />
+                <Node name="lib" selected="True" />
+                <Node name="writer" expanded="True" selected="True">
+                  <Node name="assets" selected="True" />
+                  <Node name="gulp-tasks" selected="True" />
+                  <Node name="pages" selected="True" />
+                  <Node name="partials" selected="True" />
+                  <Node name="PSD" selected="True" />
+                  <Node name=".gitignore" selected="True" />
+                  <Node name="CHANGELOG.md" selected="True" />
+                  <Node name="gulpfile.js" selected="True" />
+                  <Node name="index.html" selected="True" />
+                  <Node name="LICENSE" selected="True" />
+                  <Node name="package.json" selected="True" />
+                  <Node name="README.md" selected="True" />
+                  <Node name="screenshot.jpg" selected="True" />
+                </Node>
+                <Node name="WriterImageFiles" selected="True" />
+                <Node name="favicon.ico" selected="True" />
+              </Node>
+              <Node name="appsettings.json" selected="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="CoreLayer" selected="True" />
+            <Node name="DataAccessLayer" expanded="True" selected="True">
+              <Node name="ConnectedServicesFolder" selected="True" />
+              <Node name="Dependencies" selected="True" />
+              <Node name="Abstract" expanded="True" selected="True">
+                <Node name="IAboutDal.cs" selected="True" />
+                <Node name="IAdminDal.cs" selected="True" />
+                <Node name="IBlogDal.cs" selected="True" />
+                <Node name="ICategoryDal.cs" selected="True" />
+                <Node name="ICommentDal.cs" selected="True" />
+                <Node name="IContactDal.cs" selected="True" />
+                <Node name="IGenericDal.cs" selected="True" />
+                <Node name="IMessage2Dal.cs" selected="True" />
+                <Node name="IMessageDal.cs" selected="True" />
+                <Node name="INewsLetterDal.cs" selected="True" />
+                <Node name="INotificationDal.cs" selected="True" />
+                <Node name="IUserDal.cs" selected="True" />
+                <Node name="IWriterDal.cs" selected="True" />
+              </Node>
+              <Node name="Concrete" expanded="True" selected="True">
+                <Node name="Context.cs" selected="True" />
+              </Node>
+              <Node name="EntityFramework" selected="True" />
+              <Node name="Migrations" selected="True" />
+              <Node name="Repositories" expanded="True" selected="True">
+                <Node name="GenericRepository.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="EntityLayer" expanded="True" selected="True">
+              <Node name="ConnectedServicesFolder" selected="True" />
+              <Node name="Dependencies" expanded="True" selected="True">
+                <Node name="FrameworkReferences" selected="True" />
+                <Node name="PackageDependencies" selected="True" />
+              </Node>
+              <Node name="Concrete" expanded="True" selected="True">
+                <Node name="About.cs" selected="True" />
+                <Node name="Admin.cs" selected="True" />
+                <Node name="AppRole.cs" selected="True" />
+                <Node name="AppUser.cs" selected="True" />
+                <Node name="Blog.cs" selected="True" />
+                <Node name="BlogRayting.cs" selected="True" />
+                <Node name="Category.cs" selected="True" />
+                <Node name="Comment.cs" selected="True" />
+                <Node name="Contact.cs" selected="True" />
+                <Node name="Match.cs" selected="True" />
+                <Node name="Message.cs" selected="True" />
+                <Node name="Message2.cs" selected="True" />
+                <Node name="NewsLetter.cs" selected="True" />
+                <Node name="Notification.cs" selected="True" />
+                <Node name="Team.cs" selected="True" />
+                <Node name="Writer.cs" selected="True" />
               </Node>
             </Node>
           </Node>

@@ -58,48 +58,26 @@ namespace CoreDemo.Controllers
             return PartialView();
         }
         [HttpGet]
-        public IActionResult WriterEditProfile()
+        public async Task<IActionResult> WriterEditProfile()
         {
-            Context c = new Context();
-            var username = User.Identity.Name;
-            var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
-            var id = c.Users.Where(x => x.Email == usermail).Select(y => y.Id).FirstOrDefault();
-            var values = um.TGetByID(id);
-            return View(values);
-
-            //var values = await _userManager.FindByNameAsync(User.Identity.Name);
-            //var writerID = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterID).FirstOrDefault();
-            //var writervalues = wm.TGetByID(writerID);
-            //return View(writervalues);
+            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+            UserUpdateViewModel model = new UserUpdateViewModel();
+            model.mail = values.Email;
+            model.namesurname = values.NameSurname;
+            model.username = values.UserName;
+            model.imageurl = values.ImageUrl;
+            return View(model);
         }
         [HttpPost]
-        public IActionResult WriterEditProfile(Writer p)
+        public async Task<IActionResult> WriterEditProfile(UserUpdateViewModel model)
         {
-            var pas1 = Request.Form["pass1"];
-            var pas2 = Request.Form["pass2"];
-            if (pas1 == pas2)
-            {
-                p.WriterPassword = pas2;
-                WriterValidator validationRules = new WriterValidator();
-                ValidationResult result = validationRules.Validate(p);
-                if (result.IsValid)
-                {
-                    wm.TUpdate(p);
-                    return RedirectToAction("Index", "Dashboard");
-                }
-                else
-                {
-                    foreach (var item in result.Errors)
-                    {
-                        ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
-                    }
-                }
-            }
-            else
-            {
-                ViewBag.hata = "Girdiğiniz Parolalar Uyuşmuyor!";
-            }
-            return View();
+            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+            values.Email = model.mail;
+            values.NameSurname = model.namesurname;
+            values.UserName = model.username;
+            values.ImageUrl = model.imageurl;
+            var result = await _userManager.UpdateAsync(values);
+            return RedirectToAction("Index", "Dashboard");
         }
         [HttpGet]
         public IActionResult WriterAdd()
@@ -110,7 +88,7 @@ namespace CoreDemo.Controllers
         public IActionResult WriterAdd(AddProfileImage p)
         {
             Writer w = new Writer();
-            if (p.WriterImage!=null)
+            if (p.WriterImage != null)
             {
                 var extension = Path.GetExtension(p.WriterImage.FileName);
                 var newimagename = Guid.NewGuid() + extension;
@@ -125,7 +103,7 @@ namespace CoreDemo.Controllers
             w.WriterStatus = true;
             w.WriterAbout = p.WriterAbout;
             wm.TAdd(w);
-            return RedirectToAction("Index","Dashboard");
+            return RedirectToAction("Index", "Dashboard");
         }
     }
 }

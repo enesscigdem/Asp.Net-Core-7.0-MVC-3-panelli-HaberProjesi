@@ -1,4 +1,5 @@
-@model EntityLayer.Concrete.AppUser
+@using CoreDemo.Models
+@model UserUpdateViewModel
 @{
     ViewData["Title"] = "WriterEditProfile";
     Layout = "WriterLayout";
@@ -11,51 +12,46 @@
             <div class="card-body">
                 <h4 class="card-title">Yazar Profil Bilgileri Düzenleme</h4>
                 <br />
-                @Html.HiddenFor(x => x.Id, new { @class = "form-control" })
-            <form class="forms-sample">
-                <div class="form-group">
-                    <label for="exampleInputName1">Yazar Ad Soyad</label>
-                    @Html.TextBoxFor(x => x.NameSurname, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(x => x.NameSurname)
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail3">Kullanıcı Adı</label>
-                    @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(x => x.UserName)
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail3">Mail Adresi</label>
-                    @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(x => x.Email)
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword4">Parola</label>
-                    <input type="password" class="form-control" id="exampleInputPassword4" asp-for="PasswordHash" name="pass1" placeholder="Password">
-                    @Html.ValidationMessageFor(x => x.PasswordHash)
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword4">Parolayı Doğrulayın</label>
-                    <input type="password" class="form-control" id="exampleInputPassword4" asp-for="PasswordHash" name="pass2" placeholder="Password">
-                    <p class="text text-danger">@ViewBag.hata</p>
-                </div>
-                <div class="form-group">
-                    <label>Yazar Görsel</label>
-                    <input type="file" name="img[]" class="file-upload-default">
-                    <div class="input-group col-xs-12">
-                        <input type="text" class="form-control file-upload-info" name="WriterImage" disabled placeholder="Henüz bir resim seçilmedi...">
-                        <span class="input-group-append">
-                            <button class="file-upload-browse btn btn-gradient-primary" type="button">Resim Seç</button>
-                        </span>
+                <form class="forms-sample" method="post">
+                    <div class="form-group">
+                        <label for="exampleInputName1">Yazar Ad Soyad</label>
+                        <input type="text" asp-for="@Model.namesurname" class="form-control" />
                     </div>
-                </div>
-                @*<div class="form-group">
-                    <label for="exampleTextarea1">Yazar Hakkında</label>
-                    @Html.TextAreaFor(x => x.WriterAbout, 10, 3, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(x => x.WriterAbout)
-                </div>*@
-                <button type="submit" class="btn btn-gradient-primary mr-2">Güncelle</button>
-                <button class="btn btn-light">İptal</button>
-            </form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail3">Kullanıcı Adı</label>
+                        <input type="text" asp-for="@Model.username" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail3">Mail Adresi</label>
+                        <input type="text" asp-for="@Model.mail" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail3">Resim Yolu</label>
+                        <input type="text" asp-for="@Model.imageurl" class="form-control" />
+                    </div>
+                    @*<div class="form-group">
+                            <label for="exampleInputPassword4">Parola</label>
+                            <input type="password" class="form-control" id="exampleInputPassword4" asp-for="PasswordHash" name="pass1" placeholder="Password">
+                            @Html.ValidationMessageFor(x => x.PasswordHash)
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword4">Parolayı Doğrulayın</label>
+                            <input type="password" class="form-control" id="exampleInputPassword4" asp-for="PasswordHash" name="pass2" placeholder="Password">
+                            <p class="text text-danger">@ViewBag.hata</p>
+                        </div>*@
+                    @*<div class="form-group">
+                            <label>Yazar Görsel</label>
+                            <input type="file" name="img[]" class="file-upload-default">
+                            <div class="input-group col-xs-12">
+                                <input type="text" class="form-control file-upload-info" name="WriterImage" disabled placeholder="Henüz bir resim seçilmedi...">
+                                <span class="input-group-append">
+                                    <button class="file-upload-browse btn btn-gradient-primary" type="button">Resim Seç</button>
+                                </span>
+                            </div>
+                        </div>*@
+                    <button type="submit" class="btn btn-gradient-primary mr-2">Güncelle</button>
+                    <button class="btn btn-light">İptal</button>
+                </form>
             </div>
         </div>
     </div>
