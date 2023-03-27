@@ -76,6 +76,7 @@ namespace CoreDemo.Controllers
             values.NameSurname = model.namesurname;
             values.UserName = model.username;
             values.ImageUrl = model.imageurl;
+            values.PasswordHash = _userManager.PasswordHasher.HashPassword(values, model.password);
             var result = await _userManager.UpdateAsync(values);
             return RedirectToAction("Index", "Dashboard");
         }
