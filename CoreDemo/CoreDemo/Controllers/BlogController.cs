@@ -63,12 +63,13 @@ namespace CoreDemo.Controllers
                                                    }).ToList();
             ViewBag.cv = categoryvalues;
 
+            var username = User.Identity.Name;
+            var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
+            var writerID = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterID).FirstOrDefault();
             BlogValidator wv = new BlogValidator();
             ValidationResult results = wv.Validate(p);
             if (results.IsValid)
             {
-                var usermail = User.Identity.Name;
-                var writerID = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterID).FirstOrDefault();
                 p.BlogStatus = true;
                 p.BlogCreateDate = DateTime.Parse(DateTime.Now.ToShortDateString());
                 p.WriterID = writerID;
@@ -107,7 +108,8 @@ namespace CoreDemo.Controllers
         [HttpPost]
         public IActionResult EditBlog(Blog p)
         {
-            var usermail = User.Identity.Name;
+            var username = User.Identity.Name;
+            var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
             var writerID = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterID).FirstOrDefault();
             p.WriterID = writerID;
             bm.TUpdate(p);

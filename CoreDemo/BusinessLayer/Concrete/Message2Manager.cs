@@ -24,9 +24,14 @@ namespace BusinessLayer.Concrete
             return _messageDal.GetListAll();
         }
 
+        public List<Message2> GetSendBoxListByWriter(int id)
+        {
+            return _messageDal.GetSendBoxListWithMessageByWriter(id);
+        }
+
         public void TAdd(Message2 t)
         {
-            throw new NotImplementedException();
+            _messageDal.Insert(t);
         }
 
         public void TDelete(Message2 t)
