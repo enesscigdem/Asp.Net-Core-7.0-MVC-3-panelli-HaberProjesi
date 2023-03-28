@@ -25,6 +25,7 @@ namespace CoreDemo.Areas.Admin.Controllers
             return View(values);
         }
         [HttpGet]
+        //DEneme
         public IActionResult AddCategory()
         {
             return View();
