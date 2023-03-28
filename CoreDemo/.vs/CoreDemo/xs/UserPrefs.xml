@@ -1,12 +1,18 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Areas/Admin/Controllers/BlogController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Areas/Admin/Views/AdminMessage/ComposeMessage.cshtml">
     <Files>
-      <File FileName="CoreDemo/Views/Shared/AdminLayout.cshtml" Line="1" Column="1" />
-      <File FileName="CoreDemo/Views/Admin/AdminNavbarPartial.cshtml" Line="81" Column="77" />
+      <File FileName="CoreDemo/Views/Admin/AdminNavbarPartial.cshtml" Line="34" Column="68" />
       <File FileName="CoreDemo/Areas/Admin/Controllers/CategoryController.cs" Line="1" Column="1" />
-      <File FileName="CoreDemo/Areas/Admin/Controllers/BlogController.cs" Line="48" Column="23" />
+      <File FileName="CoreDemo/Areas/Admin/Controllers/BlogController.cs" Line="41" Column="10" />
+      <File FileName="CoreDemo/Areas/Admin/Controllers/AdminMessageController.cs" Line="35" Column="27" />
+      <File FileName="CoreDemo/Controllers/MessageController.cs" Line="62" Column="10" />
+      <File FileName="CoreDemo/Areas/Admin/Views/AdminMessage/ComposeMessage.cshtml" Line="54" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,13 +23,18 @@
                 <Node name="Admin" expanded="True">
                   <Node name="Controllers" expanded="True" />
                   <Node name="Views" expanded="True">
-                    <Node name="Blog" expanded="True" />
-                    <Node name="Category" expanded="True" />
+                    <Node name="AdminMessage" expanded="True" />
                   </Node>
                 </Node>
               </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Admin" expanded="True" />
+                <Node name="Message" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="inspinia-gh-pages" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -31,9 +42,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>
