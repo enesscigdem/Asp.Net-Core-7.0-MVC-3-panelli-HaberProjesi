@@ -30,5 +30,9 @@ namespace CoreDemo.Areas.Admin.Controllers
             var values = mm.GetSendBoxListByWriter(writerID);
             return View(values);
         }
+        public IActionResult ComposeMessage()
+        {
+            return View();
+        }
     }
 }
