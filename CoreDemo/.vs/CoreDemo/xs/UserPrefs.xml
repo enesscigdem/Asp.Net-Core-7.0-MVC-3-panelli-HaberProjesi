@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{D8F184F9-5611-4FEA-854C-0FF22C799329}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Areas/Admin/Views/AdminBlog/Index.cshtml">
+  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreDemo/Areas/Admin/Controllers/AdminRoleController.cs">
     <Files>
-      <File FileName="CoreDemo/Areas/Admin/Views/AdminBlog/Index.cshtml" Line="30" Column="1" />
-      <File FileName="CoreDemo/Areas/Admin/Controllers/AdminBlogController.cs" Line="18" Column="31" />
-      <File FileName="CoreDemo/Views/Blog/Index.cshtml" Line="43" Column="59" />
+      <File FileName="CoreDemo/Areas/Admin/Controllers/AdminRoleController.cs" Line="37" Column="23" />
+      <File FileName="CoreDemo/Areas/Admin/Views/AdminRole/AddRole.cshtml" Line="10" Column="1" />
+      <File FileName="CoreDemo/Areas/Admin/Views/AdminRole/Index.cshtml" Line="42" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,25 +17,21 @@
                 <Node name="Admin" expanded="True">
                   <Node name="Controllers" expanded="True" />
                   <Node name="Views" expanded="True">
-                    <Node name="AdminBlog" expanded="True" />
+                    <Node name="AdminComment" expanded="True" />
+                    <Node name="AdminRole" expanded="True" />
                   </Node>
                 </Node>
               </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Admin" expanded="True" />
-                <Node name="Blog" expanded="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.CoreDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
