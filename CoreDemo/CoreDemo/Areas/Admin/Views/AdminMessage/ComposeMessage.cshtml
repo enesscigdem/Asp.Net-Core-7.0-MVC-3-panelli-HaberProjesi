@@ -1,3 +1,4 @@
+@model EntityLayer.Concrete.Message2
 @{
     ViewData["Title"] = "ComposeMessage";
     Layout = "AdminLayout";
@@ -50,33 +51,35 @@
 
                     <div class="mail-body">
 
-                        <form method="get">
+                        <form method="post">
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Alıcı:</label>
 
-                                <div class="col-sm-10"><input type="text" class="form-control" value="deneme@gmail.com"></div>
+                                <div class="col-sm-10"><input type="text" name="AlıcıMail" class="form-control" value="deneme@gmail.com"></div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Konu:</label>
 
-                                <div class="col-sm-10"><input type="text" class="form-control" value=""></div>
+                                <div class="col-sm-10"><input type="text" name="Subject" class="form-control" value=""></div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Mesajınız:</label>
 
                                 <div class="col-sm-10">
-                                    <textarea class="form-control" rows="6" cols="10"></textarea>
+                                    <textarea class="form-control" name="MessageDetails" rows="6" cols="10"></textarea>
                                 </div>
                             </div>
+
+                            <div class="mail-body text-right tooltip-demo">
+                                <button class="btn btn-sm btn-primary" data-toggle="tooltip" data-placement="top" title="Send"><i class="fa fa-reply"></i> Gönder </button>
+                                <a href="mailbox.html" class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="top" title="Discard email"><i class="fa fa-times"></i> Vazgeç </a>
+                                <a href="mailbox.html" class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="top" title="Move to draft folder"><i class="fa fa-pencil"></i> Taslak </a>
+                            </div>
+                            <div class="clearfix"></div>
                         </form>
 
                     </div>
-                    <div class="mail-body text-right tooltip-demo">
-                        <a href="mailbox.html" class="btn btn-sm btn-primary" data-toggle="tooltip" data-placement="top" title="Send"><i class="fa fa-reply"></i> Gönder </a>
-                        <a href="mailbox.html" class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="top" title="Discard email"><i class="fa fa-times"></i> Vazgeç </a>
-                        <a href="mailbox.html" class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="top" title="Move to draft folder"><i class="fa fa-pencil"></i> Taslak </a>
-                    </div>
-                    <div class="clearfix"></div>
+
                 </div>
             </div>
         </div>
