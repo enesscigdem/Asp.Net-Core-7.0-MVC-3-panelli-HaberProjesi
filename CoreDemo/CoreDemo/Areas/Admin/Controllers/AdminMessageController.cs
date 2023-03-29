@@ -42,7 +42,7 @@ namespace CoreDemo.Areas.Admin.Controllers
             var username = User.Identity.Name;
             var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
             var writerID = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterID).FirstOrDefault();
-            //ALICI
+            //ALICI MAİL 
             string alıcıMail = Request.Form["AlıcıMail"];
             var writerID_ = c.Writers.Where(x => x.WriterMail == alıcıMail).Select(y => y.WriterID).FirstOrDefault();
             p.SenderID = writerID;
