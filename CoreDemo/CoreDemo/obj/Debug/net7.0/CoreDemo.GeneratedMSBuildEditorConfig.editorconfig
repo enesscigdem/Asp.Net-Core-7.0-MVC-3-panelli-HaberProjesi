@@ -44,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Sb2xlL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/Areas/Admin/Views/AdminRole/UpdateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Sb2xlL1VwZGF0ZVJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/enescigdem/Projects/Asp.Net-Core-7.0-MVC-3-panelli-Blog-Projesi/CoreDemo/CoreDemo/Areas/Admin/Views/Blog/BlogListExcel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQmxvZy9CbG9nTGlzdEV4Y2VsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

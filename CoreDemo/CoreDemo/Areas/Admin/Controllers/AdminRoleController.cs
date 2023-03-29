@@ -55,5 +55,45 @@ namespace CoreDemo.Areas.Admin.Controllers
             }
             return View(model);
         }
+        [HttpGet]
+        public IActionResult UpdateRole(int id)
+        {
+            var values = _roleManager.Roles.FirstOrDefault(x => x.Id == id);
+            RoleUpdateViewModel model = new RoleUpdateViewModel
+            {
+                Id = values.Id,
+                name = values.Name
+            };
+            return View(model);
+        }
+        [HttpPost]
+        public async Task<IActionResult> UpdateRole(RoleUpdateViewModel model)
+        {
+            var values = _roleManager.Roles.Where(x => x.Id == model.Id).FirstOrDefault();
+            values.Name = model.name;
+            var result = await _roleManager.UpdateAsync(values);
+            if (result.Succeeded)
+            {
+                return Redirect("~/Admin/AdminRole/Index");
+            }
+            else
+            {
+                foreach (var item in result.Errors)
+                {
+                    ModelState.AddModelError("", item.Description);
+                }
+            }
+            return View(model);
+        }
+        public async Task<IActionResult> DeleteRole(int id)
+        {
+            var values = _roleManager.Roles.FirstOrDefault(x => x.Id == id);
+            var result = await _roleManager.DeleteAsync(values);
+            if (result.Succeeded)
+            {
+                return Redirect("~/Admin/AdminRole/Index");
+            }
+            return View();
+        }
     }
 }

@@ -1,0 +1,20 @@
+@using CoreDemo.Models
+@model RoleUpdateViewModel
+@{
+    ViewData["Title"] = "UpdateRole";
+    Layout = "AdminLayout";
+}
+
+<h1>Rol Düzenleme Sayfası</h1>
+<br />
+<form method="post">
+    <label>Rol ID</label>
+    <input type="text" asp-for="@Model.Id" class="form-control" />
+    <br />
+    <label>Rol Başlığı</label>
+    <input type="text" asp-for="@Model.name" class="form-control" />
+    <br />
+    <button class="btn btn-info">Rolü Düzenle</button>
+</form>
+@section scripts {
+}
