@@ -62,6 +62,7 @@
     <None Remove="Areas\Admin\Views\AdminMessage\" />
     <None Remove="Areas\Admin\Views\AdminBlog\" />
     <None Remove="Areas\Admin\Views\AdminComment\" />
+    <None Remove="Areas\Admin\Views\AdminRole\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.1" />
@@ -135,6 +136,7 @@
     <Folder Include="Areas\Admin\Views\AdminMessage\" />
     <Folder Include="Areas\Admin\Views\AdminBlog\" />
     <Folder Include="Areas\Admin\Views\AdminComment\" />
+    <Folder Include="Areas\Admin\Views\AdminRole\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\WriterImageFiles\" />
