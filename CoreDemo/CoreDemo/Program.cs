@@ -23,6 +23,7 @@ builder.Services.AddAuthentication(
     CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(x =>
     {
         x.LoginPath = "/Login/Index";
+        x.AccessDeniedPath = new PathString("/Login/AccessDenied");
     });
 var app = builder.Build();
 
@@ -41,7 +42,7 @@ app.UseStaticFiles();
 
 app.UseAuthentication();
 app.UseRouting();
-app.UseStatusCodePagesWithRedirects("/Login/Index?ReturnUrl={0}"); //
+//app.UseStatusCodePagesWithRedirects("/Login/Index?ReturnUrl={0}"); //
 
 app.UseAuthorization();
 app.MapControllerRoute(
